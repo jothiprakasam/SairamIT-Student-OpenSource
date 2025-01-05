@@ -1,0 +1,2 @@
+def welcome():
+  pass
