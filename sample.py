@@ -1,2 +1,2 @@
 def welcome():
-  pass
+  print("ost")
