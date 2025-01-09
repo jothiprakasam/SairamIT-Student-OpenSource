@@ -3,11 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ugly UI</title>
+  <title>Beautiful Website with Icons</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome CDN -->
+  <style>
+    body {
+      background-color: #f0f4f8;
+      color: #333;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      color: #5f6368;
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+      max-width: 600px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .icon {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: #4CAF50;
+    }
+
+  </style>
 </head>
-<body style="background-color: gray; color: black; font-family: Comic Sans MS;">
-  <h1>Welcome to My Ugly Website</h1>
-  <p>This is a very basic page with bad styling. Please make it look better!</p>
-  <button style="background-color: yellow; color: red;">Click Me!</button>
+<body>
+  <div class="container">
+    <div class="icon">
+      <i class="fas fa-smile"></i> <!-- Font Awesome Icon -->
+    </div>
+    <h1>Welcome to My Beautiful Website</h1>
+    <p>This is a simple yet stylish page with improved design, color scheme, and fun icons. Hope you like it!</p>
+    <button><i class="fas fa-thumbs-up"></i> Click Me!</button> <!-- Button with Icon -->
+  </div>
 </body>
 </html>
